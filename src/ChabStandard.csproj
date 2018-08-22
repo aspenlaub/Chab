@@ -1,17 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Aspenlaub.Net.GitHub.CSharp.ChabStandard</AssemblyName>
     <RootNamespace>Aspenlaub.Net.GitHub.CSharp.ChabStandard</RootNamespace>
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>..\..\ChabStandardBin\Debug\</OutputPath>
     <IntermediateOutputPath>..\temp\obj\Debug\</IntermediateOutputPath>
     <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\..\ChabStandardBin\Release\</OutputPath>
     <IntermediateOutputPath>..\temp\obj\Release\</IntermediateOutputPath>
@@ -19,7 +17,6 @@
     <RunOctoPack>false</RunOctoPack>
     <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Remove="ChabStandard.Test\**" />
     <Compile Remove="Test\**" />
@@ -28,5 +25,4 @@
     <None Remove="ChabStandard.Test\**" />
     <None Remove="Test\**" />
   </ItemGroup>
-
 </Project>
