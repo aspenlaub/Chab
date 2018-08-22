@@ -18,6 +18,7 @@
     <RunOctoPack>false</RunOctoPack>
     <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="ChabStandard.Test\**" />
