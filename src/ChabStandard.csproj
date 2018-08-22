@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>D:\Users\Wolfgang\GitHub\ChabStandardBin\Debug\</OutputPath>
+    <OutputPath>..\..\ChabStandardBin\Debug\</OutputPath>
     <IntermediateOutputPath>..\temp\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>D:\Users\Wolfgang\GitHub\ChabStandardBin\Release</OutputPath>
+    <OutputPath>..\..\ChabStandardBin\Release</OutputPath>
     <IntermediateOutputPath>..\temp\obj\Release\</IntermediateOutputPath>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <RunOctoPack>false</RunOctoPack>
