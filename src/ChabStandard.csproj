@@ -19,6 +19,7 @@
     <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NuspecFile>ChabStandard.nuspec</NuspecFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="ChabStandard.Test\**" />
