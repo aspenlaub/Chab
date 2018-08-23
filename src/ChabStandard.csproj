@@ -9,7 +9,6 @@
     <OutputPath>..\..\ChabStandardBin\Debug\</OutputPath>
     <IntermediateOutputPath>..\temp\obj\Debug\</IntermediateOutputPath>
     <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\..\ChabStandardBin\Release\</OutputPath>
