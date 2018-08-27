@@ -30,4 +30,8 @@
     <None Remove="ChabStandard.Test\**" />
     <None Remove="Test\**" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LibGit2Sharp" Version="0.25.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
 </Project>
