@@ -1,26 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Aspenlaub.Net.GitHub.CSharp.ChabStandard</AssemblyName>
     <RootNamespace>Aspenlaub.Net.GitHub.CSharp.ChabStandard</RootNamespace>
-    <Deterministic>false</Deterministic>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Deterministic>false</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>..\..\ChabStandardBin\Debug\</OutputPath>
-    <IntermediateOutputPath>..\temp\obj\Debug\</IntermediateOutputPath>
-    <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
+    <Deterministic>false</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>..\..\ChabStandardBin\Release\</OutputPath>
-    <IntermediateOutputPath>..\temp\obj\Release\</IntermediateOutputPath>
-    <UseVSHostingProcess>false</UseVSHostingProcess>
-    <RunOctoPack>false</RunOctoPack>
-    <GenerateBuildInfoConfigFile>false</GenerateBuildInfoConfigFile>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <NuspecFile>ChabStandard.nuspec</NuspecFile>
+    <Deterministic>false</Deterministic>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="ChabStandard.Test\**" />
