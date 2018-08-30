@@ -9,12 +9,9 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <Deterministic>false</Deterministic>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <Deterministic>false</Deterministic>
-  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <NuspecFile>ChabStandard.nuspec</NuspecFile>
-    <Deterministic>false</Deterministic>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="ChabStandard.Test\**" />
