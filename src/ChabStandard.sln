@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChabStandard", "ChabStandard.csproj", "{1D46D80A-83DA-4396-AA31-D9857F656CF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChabStandard", "ChabStandard.csproj", "{1D46D80A-83DA-4396-AA31-D9857F656CF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChabStandard.Test", "Test\ChabStandard.Test.csproj", "{B2ADFE7D-EA74-4D5D-8CC3-505B0955AFB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChabStandard.Test", "Test\ChabStandard.Test.csproj", "{558A65C4-A141-4A32-8B42-5DB8A2CBFA41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1D46D80A-83DA-4396-AA31-D9857F656CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D46D80A-83DA-4396-AA31-D9857F656CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D46D80A-83DA-4396-AA31-D9857F656CF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2ADFE7D-EA74-4D5D-8CC3-505B0955AFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2ADFE7D-EA74-4D5D-8CC3-505B0955AFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2ADFE7D-EA74-4D5D-8CC3-505B0955AFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2ADFE7D-EA74-4D5D-8CC3-505B0955AFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558A65C4-A141-4A32-8B42-5DB8A2CBFA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558A65C4-A141-4A32-8B42-5DB8A2CBFA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558A65C4-A141-4A32-8B42-5DB8A2CBFA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558A65C4-A141-4A32-8B42-5DB8A2CBFA41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
