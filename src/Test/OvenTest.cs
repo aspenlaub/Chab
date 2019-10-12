@@ -1,11 +1,13 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Autofac;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Aspenlaub.Net.GitHub.CSharp.ChabStandard.Test {
     [TestClass]
     public class OvenTest {
         [TestMethod]
         public void CanBakeACake() {
-            var sut = new Oven();
+            var container = new ContainerBuilder().UseChabStandard().Build();
+            var sut = container.Resolve<IOven>();
             var cake = sut.BakeACake();
             Assert.IsNotNull(cake);
         }
