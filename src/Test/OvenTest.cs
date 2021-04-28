@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Aspenlaub.Net.GitHub.CSharp.ChabStandard.Test {
+namespace Aspenlaub.Net.GitHub.CSharp.Chab.Test {
     [TestClass]
     public class OvenTest {
         [TestMethod]

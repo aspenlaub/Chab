@@ -1,7 +1,7 @@
-﻿namespace Aspenlaub.Net.GitHub.CSharp.ChabStandard {
+﻿namespace Aspenlaub.Net.GitHub.CSharp.Chab {
     public class Oven : IOven {
         public Cake BakeACake() {
-            return new Cake();
+            return new();
         }
     }
 }

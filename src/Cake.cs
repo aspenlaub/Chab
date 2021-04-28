@@ -1,4 +1,4 @@
-﻿namespace Aspenlaub.Net.GitHub.CSharp.ChabStandard {
+﻿namespace Aspenlaub.Net.GitHub.CSharp.Chab {
     public class Cake {
     }
 }
