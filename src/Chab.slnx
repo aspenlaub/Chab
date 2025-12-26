@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Chab.csproj" />
+  <Project Path="Test/Chab.Test.csproj" />
+</Solution>
