@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <IsPackable>false</IsPackable>
     <AssemblyName>Aspenlaub.Net.GitHub.CSharp.Chab.Test</AssemblyName>
     <RootNamespace>Aspenlaub.Net.GitHub.CSharp.Chab.Test</RootNamespace>
@@ -10,15 +10,14 @@
     <Deterministic>false</Deterministic>
     <AssemblyTitle>Aspenlaub.Net.GitHub.CSharp.Chab.Test</AssemblyTitle>
     <AssemblyProduct>Aspenlaub.Net.GitHub.CSharp.Chab.Test</AssemblyProduct>
+    <MSBuildEnableWorkloadResolver>false</MSBuildEnableWorkloadResolver>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'" />
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.0" />
-    <PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
-    <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
+    <ProjectReference Include="..\Chab.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Chab.csproj" />
+    <PackageReference Include="Seoa" Version="2.0.2550.426" />
   </ItemGroup>
 </Project>
